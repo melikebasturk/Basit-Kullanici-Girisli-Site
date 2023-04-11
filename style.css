@@ -1,0 +1,121 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #FFCEFE;
+}
+
+.girispaneli{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background: #FFF4E0;
+    border-radius: 30px;
+    padding: 25px;
+    box-shadow: 4px 3px 4px 3px #B46060;
+    position: relative;
+}
+
+
+
+.image{
+    position: relative;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: #DEB6AB;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.image .profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 2px none #FFF4E0;
+    border-radius: 50%;
+}
+
+.girispaneli .text{
+    flex-direction: column;
+    align-items: center;
+    color: #42032C;
+    padding-bottom: 10px;
+
+}
+.text .name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 1000;
+    
+}
+
+
+.girispaneli .buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.buttons .button{
+    color: #FFF4E0;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    border-radius: 24px;
+    margin: 1px 5px 1px 5px;
+    padding: 8px 24px;
+    background-color: #9E4784;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons .button:hover{
+    background-color:  #D27685;
+}
+
+
+
+.girispaneli .giris .button-giris{
+    color: #FFF4E0;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    border-radius: 24px;
+    margin: 15px 10px 0px 0px;
+    padding: 8px 24px;
+    background-color: #D27685;
+    cursor: pointer;
+    transition: all 0.3s ease;
+   
+}
+.giris .button-giris:hover{
+    background-color:  #66347F;
+}
+
+.form .text-data{
+    border: 2px solid #B46060; 
+    cursor: pointer;
+    border-radius: 24px;
+    margin: 15px 10px 1px 1px;
+    padding: 1px 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    
+    
+}

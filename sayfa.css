@@ -1,0 +1,136 @@
+
+
+body {
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4B183;
+}
+
+.girispaneli {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    max-height: 900px;
+    max-width: 1070px;
+    width: 100%;
+    background: #FFF2CC;
+    border-radius: 23px;
+    padding: 25px;
+    box-shadow: 6px 7px 6px 7px #FFD966;
+    position: relative;
+}
+
+.logo{
+   
+   height: 200px;
+   width: 100%;
+   border-radius: 14px;
+   position: relative;
+   max-width: 950px;
+   margin: 6px 25px;
+   padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.image {
+    height: 180px;
+    width: 180px;
+    padding: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.image .profile-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 2px solid #d05820;
+    border-radius: 50%;
+    
+}
+
+.girispaneli .text {
+    color: #FF6000;
+    text-align: center;
+}
+
+.text .name {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 1000;
+}
+
+.text .cikis{
+    margin: 8px; margin-left: 90%; margin-top:-72px;
+    padding: 15px 30px;
+    position:static;
+}
+
+.cikis{
+    color: #FFF4E0;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    border-radius: 24px;
+    background-color: #EA5C2B;
+}
+
+.cikis:hover{
+    background-color: #F0A04B;
+}
+
+.yazi{
+    color: #682C0E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    position: relative;
+    max-width: 950px;
+    margin: 6px 25px;
+    padding: 6px 12px;
+}
+
+
+.yazi2{
+    position: relative;
+    height: 450px;
+    max-width: 950px;
+    margin: 0px 25px;
+    padding: 0px 12px;
+}
+
+
+.yazi2 .paragraf{
+    color: #682C0E;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    width: 520px;
+    margin: 0px 5px;
+    padding: 0px 2px;
+}
+
+
+.yazi2 .banner1{
+    float: right;
+    height: 380px;
+    width: 380px;
+    padding: 2px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.banner1 .foto{
+    object-fit: cover;
+    height:100% ;
+    width:100% ;
+}
+
+
+

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #BDCDD6;
+        }
+
+        .girispaneli {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 370px;
+            width: 100%;
+            background-color: #e7ecf6;
+            border-radius: 50px;
+            padding: 28px;
+            box-shadow: 2px 3px 2px 5px #5e96c1;
+            position: relative;
+        }
+
+
+
+        .image {
+            position: relative;
+            height: 200px;
+            width: 200px;
+            padding: 2px;
+            margin-bottom: 10px;
+        }
+
+        .image .profile-img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+
+
+        }
+
+        .girispaneli .text {
+            flex-direction: column;
+            text-align:center;
+            color: #15133C;
+            padding-bottom: 15px;
+
+
+        }
+
+        .text .name {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 26px;
+            font-weight: 300;
+
+        }
+
+        .text .text-name{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 19spx;
+        font-weight: 100;
+        }
+
+
+
+        .girispaneli .buttons {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        .buttons .button {
+            color: #FFF4E0;
+            font-size: 14px;
+            font-weight: 600;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border: none;
+            border-radius: 24px;
+            margin: 1px 5px 1px 5px;
+            padding: 8px 24px;
+            background-color: #1A5F7A;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .buttons .button:hover {
+            background-color: #182747;
+        }
+
+        .girispaneli .giris .button-giris {
+            color: #FFF4E0;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border: none;
+            border-radius: 24px;
+            margin: 15px 10px 0px 0px;
+            padding: 8px 24px;
+            background-color: #1A5F7A;
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+        }
+
+        .giris .button-giris:hover {
+            background-color: #182747;
+        }
+
+        .form .text-data {
+            border: 2px solid #159895;
+            cursor: pointer;
+            border-radius: 34px;
+            margin: 5px 25px;
+            padding: 1px 2px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="girispaneli">
+
+        <div class="image"><img src="cadi/buyu.png" alt="" class="profile-img"></div>
+
+        <div class="text">
+            <span class="name">Şifrenizi  yenilemek için link gönderelim</span><br><br>
+            <span class="name-text">Kullanıcı Adına kayıtlı olan E-postanızı veya Telefon numaranızı giriniz</span>
+        </div>
+
+        <div class="form">
+            <table>
+
+                <tr>
+                    <td class="text-data"><input style="border: none; height: 25px; border-radius: 24px; " type="text">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="giris"><button class="button-giris">GÖNDER</button></div>
+
+        <div class="buttons">
+            <a href="index.html"><button class="button">Geri Dön</button></a>
+            <a href="uyeekrani.html"><button class="button">Yeni Hesap Oluştur</button></a>
+        </div>
+
+    </div>
+</body>
+
+</html>
